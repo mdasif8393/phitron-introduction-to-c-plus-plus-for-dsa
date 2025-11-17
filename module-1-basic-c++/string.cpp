@@ -7,6 +7,7 @@ int main(){
     cin >> x;
 
     cin.ignore();
+    
     char s[100];
     cin.getline(s, 100);
     cout << x << endl << s;
