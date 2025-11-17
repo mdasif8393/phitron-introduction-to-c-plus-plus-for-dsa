@@ -1,7 +1,7 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int* p;
+int *p;
 
 void fun()
 {
@@ -17,6 +17,9 @@ int main()
 {
     fun();
     cout << "Fun ->" << *p << endl;
+
+    int *a = new int;
+    delete a;
 
     return 0;
 }
