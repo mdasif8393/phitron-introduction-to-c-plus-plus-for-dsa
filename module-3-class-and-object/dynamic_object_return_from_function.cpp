@@ -29,4 +29,4 @@ int main()
     cout << (*p).roll << " " << p->cls << " " << p->gpa;
 
     return 0;
-}
+};
