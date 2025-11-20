@@ -14,7 +14,7 @@ int main()
     Student a, b;
     cin.getline(a.name, 100);
     cin >> a.roll >> a.gpa;
-    cin.ignore();
+    cin.ignore(); // use ignore because getline get enter input but cin ignore space, enter
     cin.getline(b.name, 100);
     cin >> b.roll >> b.gpa;
 

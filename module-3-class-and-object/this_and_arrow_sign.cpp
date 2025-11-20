@@ -10,7 +10,7 @@ public:
 
     Student(int roll, int cls, double gpa)
     {
-        (*this).roll = roll;
+        (*this).roll = roll; // dereference a pointer to access their value
         this->cls = cls;
         this->gpa = gpa;
     }
