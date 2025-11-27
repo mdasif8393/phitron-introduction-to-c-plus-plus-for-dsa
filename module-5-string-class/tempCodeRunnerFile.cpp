@@ -1,1 +1,2 @@
-*s.end() - 1
+    ss >> word;
+    cout << word << endl;
