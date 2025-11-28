@@ -11,7 +11,6 @@ int main()
 
     string word;
 
-    int count = 0;
     while (ss >> word)
     {
         cout << word << endl;
