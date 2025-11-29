@@ -8,7 +8,7 @@ int main()
     string s2 = "Hi";
 
     // s += s2;
-    cout << s << endl;
+    cout << s2 << endl;
 
     // .append() -> append another string.
 
