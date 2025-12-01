@@ -10,6 +10,8 @@ int main()
     {
         cin >> a[i];
     }
+    // sort(a, a + n); // ascending order sort
+
     sort(a, a + n, greater<int>()); // a = 1st index of array. a + n = last index of array + 1
     // greater is built in function with array data type
 
