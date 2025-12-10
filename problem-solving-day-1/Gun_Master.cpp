@@ -5,20 +5,40 @@ using namespace std;
 
 int main()
 {
-    int n, min;
-    cin >> n >> min;
+    int x;
+    cin >> x;
 
-    int a[n];
-    for (int i = 0; i < n; i++)
+    while (x--)
     {
-        cin >> a[i];
-    }
+        int n, d;
+        cin >> n >> d;
 
-    int cout = 0;
+        int a[n];
+        for (int i = 0; i < n; i++)
+        {
+            cin >> a[i];
+        }
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << a[i];
+        int count = 0;
+        char gun = 'c';
+
+        for (int i = 0; i < n; i++)
+        {
+            if (a[i] > d && gun == 'c')
+            {
+
+                gun = 'l';
+                count++;
+            }
+            else if (a[i] <= d && gun == 'l')
+            {
+
+                gun = 'c';
+                count++;
+            }
+        }
+
+        cout << count << endl;
     }
 
     return 0;
