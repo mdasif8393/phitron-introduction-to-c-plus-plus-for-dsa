@@ -9,14 +9,12 @@ void fun()
     *x = 10;
     p = x;
     cout << "Fun ->" << *p << endl;
-
-    return;
 }
 
 int main()
 {
     fun();
-    cout << "Fun ->" << *p << endl;
+    cout << "Fun inside main ->" << *p << endl;
 
     int *a = new int;
     delete a;

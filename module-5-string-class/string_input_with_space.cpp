@@ -9,7 +9,7 @@ int main()
     string s;
 
     cin.ignore();
-    getline(cin, s);
+    getline(cin, s); // input string with space
     cout << x << endl
          << s << endl;
 

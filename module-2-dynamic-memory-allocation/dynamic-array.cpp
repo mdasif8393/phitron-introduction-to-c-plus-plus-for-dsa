@@ -1,16 +1,22 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main()
+{
 
-    int *a = new int[5];
+    int n;
+    cin >> n;
 
-    for(int i=0; i<5; i++){
-        cin>> a[i];
+    int *a = new int[n];
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> a[i];
     }
 
-    for(int i=0; i<5; i++){
-        cout<< a[i] << " ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << a[i] << " ";
     }
 
     return 0;

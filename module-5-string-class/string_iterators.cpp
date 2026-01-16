@@ -10,5 +10,8 @@ int main()
         cout << *it << endl;
     }
 
+    cout << *s.begin() << endl;
+    cout << *(s.end() - 1) << endl;
+
     return 0;
 }
