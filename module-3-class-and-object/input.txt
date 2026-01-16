@@ -1,2 +1,7 @@
-7
-10 50 300 40 20 2 5
+6
+Sakib 15 92
+Rakib 18 94
+Akib 28 92
+Sifat 24 92
+Rifat 1 94
+Ifat 10 92
